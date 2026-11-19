@@ -692,3 +692,5 @@ docker images nutribox-api -q | xargs -r docker rmi -f
 | Ver el log de staging | `docker logs nutribox-staging` |
 | Reiniciar Jenkins | `docker compose -f ~/lab-cicd/Laboratorio_Jenkins_NutriBox/infra-jenkins/docker-compose.yml restart jenkins` |
 | Historial gráfico de Git | `git log --oneline --graph -n 15` |
+
+Pipeline administrado por Jenkins.
